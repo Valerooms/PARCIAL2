@@ -23,5 +23,17 @@ La sobreescritura de un metodo es tomar un metodo ya existente y editarlo de tal
 Para impedir que se sobre-escriba un metodo se debe utilizar la palabra final en la firma del metodo.
 
 DISENO 
-1.
-![PARCIAL DISENO 1](https://user-images.githubusercontent.com/78030533/115094057-d9923500-9ee1-11eb-8aef-c7bfabf7ed62.png)
+1.![PARCIAL DISENO 1](https://user-images.githubusercontent.com/78030533/115094057-d9923500-9ee1-11eb-8aef-c7bfabf7ed62.png)
+Summarize: public Duration summarize():
+/**
+     * Resume informacion of the synthethizers
+     *
+     * @return Duration of the synthethizers
+     */
+3.![DIAGRAMACLASES](https://user-images.githubusercontent.com/78030533/115094296-a69c7100-9ee2-11eb-8d0d-24abdea98e09.png)
+4.GetDuration: 
+/**
+     * Get duration of the activity
+     *
+     * @return
+     */
