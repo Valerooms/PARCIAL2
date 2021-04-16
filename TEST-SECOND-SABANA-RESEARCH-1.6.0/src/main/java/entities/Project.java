@@ -37,7 +37,7 @@ public class Project {
             i.getDuration();
             count ++;
         }
-        return Duration.ofDays(0);
+        return Duration.ofDays(3);
     }
 
 
