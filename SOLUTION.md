@@ -39,3 +39,8 @@ DISENO
      *
      * @return
      */
+
+EXTENDIENDO
+![EXTENDIENDO](https://user-images.githubusercontent.com/78030533/115094929-009e3600-9ee5-11eb-9f2e-7e9e4919192a.png)
+1. Implemente el llamado de prerrequisitos tanto para activities como para iterations
+2. No es el mas efectivo
