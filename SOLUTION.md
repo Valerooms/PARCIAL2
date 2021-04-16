@@ -1,3 +1,5 @@
+
+CONCEPTOS
 1. ¿Cuáles son las acciones los tres momentos importantes de las excepciones?
 Trhow: Se usa para lanzar una excepcion 
 Propagate: Se usa para propagar una excepcion
@@ -19,3 +21,7 @@ Catch: Se captura con el fin de testear para encontrar y controlar los errores m
 3. ¿Qué es sobre-escritura de métodos? ¿Por qué aplicarla? ¿Cómo impedir que se sobre-escriba un método?
 La sobreescritura de un metodo es tomar un metodo ya existente y editarlo de tal forma que realice acciones personalizadas.
 Para impedir que se sobre-escriba un metodo se debe utilizar la palabra final en la firma del metodo.
+
+DISENO 
+1.
+![PARCIAL DISENO 1](https://user-images.githubusercontent.com/78030533/115094057-d9923500-9ee1-11eb-8aef-c7bfabf7ed62.png)
