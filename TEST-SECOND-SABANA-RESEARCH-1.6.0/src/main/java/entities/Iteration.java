@@ -23,16 +23,15 @@ public class Iteration {
     }
 
     public Duration getDuration() throws SabanaResearchException {
-        int count =0;
+        Duration r = Duration.ofDays(0);
         if (activities.size()<=0){
             throw new SabanaResearchException(SabanaResearchException.BAD_FORMED_ITERATION);
         }
 
         for (Activity a: activities){
-            count ++;
-            a.getDuration();
+            r=r.plusDays(a.getDuration().toDays());
         }
-        return Duration.ofDays(0);
+        return r;
     }
 
 }

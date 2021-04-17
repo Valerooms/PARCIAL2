@@ -29,15 +29,14 @@ public class Project {
 
     public Duration getDuration() throws SabanaResearchException {
 
-        int count=0;
+        Duration a = Duration.ofDays(0);
         if (iterations.size()<=0){
             throw new SabanaResearchException(SabanaResearchException.BAD_FORMED_PROJECT);
         }
         for (Iteration i : iterations){
-            i.getDuration();
-            count ++;
+            a= a.plusDays((i.getDuration().toDays()));
         }
-        return Duration.ofDays(3);
+        return a;
     }
 
 

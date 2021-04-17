@@ -21,6 +21,8 @@ public class DocumentedActivity extends Activity {
 
     @Override
     public Duration getDuration() throws SabanaResearchException {
+
+        Duration b = Duration.ofDays(0);
         if (questions.size()<=0){
             throw new SabanaResearchException(SabanaResearchException.BAD_FORMED_DOCUMENTED_ACTIVITY);
         }
@@ -32,14 +34,11 @@ public class DocumentedActivity extends Activity {
             throw new SabanaResearchException(SabanaResearchException.BAD_FORMED_NORMAL_ACTIVITY);
         }
 
-
-        return Duration.ofDays(0);
-    }
-    public Duration getDedication(){
         for( Question q: questions){
-            q.getDedication();
+            b=b.plusDays(q.getDedication().toDays());
         }
-        return Duration.ofDays(0);
+        b=b.plusDays(activity.getDuration().toDays());
+        return b;
     }
 }
 
